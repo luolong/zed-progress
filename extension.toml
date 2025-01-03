@@ -1,0 +1,11 @@
+id = "progress"
+name = "Progress 4GL / Open ABL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Roland Tepp <roland@tepp.ee>"]
+description = "Progress 4GL / OpenABL language support"
+repository = "https://github.com/luolong/zed-progress"
+
+[grammars.abl]
+repository = "https://github.com/usagi-coffee/tree-sitter-abl"
+commit = "617394ca43c58d22dc3fcb05ea83b5777c09983a"            # v0.0.33
