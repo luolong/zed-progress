@@ -1,0 +1,5 @@
+name = "Progress"
+grammar = "abl"
+path_suffixes = ["p", "i", "w", "cls"]
+line_comments = ["/*", "//"]
+scope_opt_in_language_servers = []

@@ -1,0 +1,12 @@
+[package]
+name = "zed-openabl-extension"
+version = "0.1.0"
+edition = "2021"
+authors = ["Roland Tepp <roland@piletilevi.ee>"]
+description = "Zed extension for Progress OpenABL language support"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.2.0"
